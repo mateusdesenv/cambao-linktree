@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050805" />
+  <meta name="description" content="Links oficiais do Cambão — lives e conteúdo de Call of Duty." />
+
+  <meta property="og:title" content="Cambão | Call of Duty" />
+  <meta property="og:description" content="Acompanhe as lives e o conteúdo gamer do Cambão." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/cambao-profile.png" />
+
+  <title>Cambão | Links Oficiais</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background" aria-hidden="true">
+    <div class="background__image"></div>
+    <div class="background__grid"></div>
+    <div class="background__scan"></div>
+    <div class="particle particle--one"></div>
+    <div class="particle particle--two"></div>
+    <div class="particle particle--three"></div>
+  </div>
+
+  <main class="page-shell">
+    <section class="linktree" aria-labelledby="profile-name">
+      <div class="topbar">
+        <div class="status">
+          <span class="status__dot" aria-hidden="true"></span>
+          <span>MISSÃO ONLINE</span>
+        </div>
+
+        <button class="share-button" type="button" aria-label="Compartilhar esta página" data-share>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18 8a3 3 0 1 0-2.83-4A3 3 0 0 0 15 5c0 .2.02.4.06.58L8.9 9.12A3 3 0 0 0 7 8.5a3 3 0 1 0 1.9 5.38l6.16 3.54A3 3 0 0 0 15 18a3 3 0 1 0 .95-2.18L9.8 12.28A3 3 0 0 0 10 11c0-.2-.02-.4-.06-.58l6.16-3.54A3 3 0 0 0 18 8Z"/>
+          </svg>
+        </button>
+      </div>
+
+      <header class="profile">
+        <div class="avatar-wrap" data-parallax>
+          <span class="avatar-wrap__orbit" aria-hidden="true"></span>
+          <span class="avatar-wrap__crosshair avatar-wrap__crosshair--top" aria-hidden="true"></span>
+          <span class="avatar-wrap__crosshair avatar-wrap__crosshair--bottom" aria-hidden="true"></span>
+          <img
+            class="avatar"
+            src="assets/cambao-profile.png"
+            alt="Foto de perfil gamer do Cambão"
+            width="320"
+            height="320"
+          />
+          <span class="avatar-badge" aria-label="Ao vivo">
+            <span aria-hidden="true"></span>
+            LIVE
+          </span>
+        </div>
+
+        <p class="eyebrow">CALL OF DUTY STREAMER</p>
+        <h1 id="profile-name">CAMBÃO</h1>
+        <p class="bio">Lives, gameplay e resenha no campo de batalha.</p>
+      </header>
+
+      <nav class="links" aria-label="Redes sociais do Cambão" data-links></nav>
+
+      <footer class="footer">
+        <p><span>FOCO</span><i></i><span>DISCIPLINA</span><i></i><span>VITÓRIA</span></p>
+        <small>© <span data-year></span> Cambão</small>
+      </footer>
+    </section>
+  </main>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
