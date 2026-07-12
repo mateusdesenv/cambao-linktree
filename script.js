@@ -4,15 +4,15 @@ const PROFILE = {
     {
       platform: "Instagram",
       label: "Siga no Instagram",
-      handle: "@cambao",
-      url: "https://www.instagram.com/",
+      handle: "@ismaelanfiloquiosotero",
+      url: "https://www.instagram.com/ismaelanfiloquiosotero?igsh=ejg5YWtscGw4OG96",
       icon: "instagram",
     },
     {
       platform: "TikTok",
       label: "Acompanhe no TikTok",
-      handle: "@cambao",
-      url: "https://www.tiktok.com/",
+      handle: "@ismael.sotero6",
+      url: "https://www.tiktok.com/@ismael.sotero6?_r=1&_t=ZS-97xV3moP2Yu",
       icon: "tiktok",
     },
     {

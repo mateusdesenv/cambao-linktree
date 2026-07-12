@@ -10,20 +10,11 @@ Projeto estático, responsivo e mobile-first criado com HTML, CSS e JavaScript p
 - `assets/cambao-profile.png`: imagem principal do perfil.
 - `assets/favicon.svg`: ícone da página.
 
-## Configurar os links reais
+## Links configurados
 
-Abra o arquivo `script.js` e altere o objeto `PROFILE.links`:
-
-```js
-{
-  platform: "Instagram",
-  handle: "@usuario_real",
-  url: "https://www.instagram.com/usuario_real/",
-  icon: "instagram",
-}
-```
-
-Repita o processo para TikTok e YouTube.
+- Instagram: `https://www.instagram.com/ismaelanfiloquiosotero?igsh=ejg5YWtscGw4OG96`
+- TikTok: `https://www.tiktok.com/@ismael.sotero6?_r=1&_t=ZS-97xV3moP2Yu`
+- YouTube: placeholder em `https://www.youtube.com/` até o link oficial ser informado.
 
 ## Executar localmente
 
